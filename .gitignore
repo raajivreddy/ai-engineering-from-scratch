@@ -1,55 +1,19 @@
+# Python
 __pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-env/
-venv/
+*.pyc
 .venv/
-*.egg-info/
-dist/
-build/
-.eggs/
 
+# Jupyter
 .ipynb_checkpoints/
-*.ipynb_metadata/
 
-node_modules/
-.next/
-out/
-.vercel
-
-target/
-Cargo.lock
-*.rlib
-
-*.deps
-*.ji
-
-.env
-.env.local
-.env.*.local
-*.pem
-*.key
-
-.DS_Store
-Thumbs.db
-*.swp
-*.swo
-*~
-.idea/
-.vscode/
-*.log
-
-data/
-models/
-checkpoints/
-wandb/
-mlruns/
+# ML Models (IMPORTANT)
 *.pt
 *.pth
-*.onnx
 *.safetensors
-*.bin
-*.h5
-.gstack/
+
+# Data
+data/
+datasets/
+
+# OS
+.DS_Store
